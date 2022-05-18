@@ -10,7 +10,7 @@
   --white: #fff;
 }
 
-* {
+html {
   box-sizing: border-box;
 }
 
@@ -172,11 +172,6 @@ button {
   margin-right: 0;
 }
 
-.link-hover:hover,
-.link-hover:focus {
-  color: var(--blue);
-}
-
 .hero {
   display: flex;
   align-items: center;
@@ -220,7 +215,7 @@ button {
   margin-right: 30px;
 }
 
-.advantages-item {
+.advantages-item:last-child {
   margin-right: 0;
 }
 
@@ -239,6 +234,10 @@ button {
 .advantages-description {
   line-height: 1.714;
   color: var(--gray);
+}
+
+.services {
+  padding-top: 0;
 }
 
 .services-list {
@@ -294,9 +293,6 @@ button {
   font-size: 16px;
   line-height: 1.187;
   color: var(--gray);
-}
-
-.works {
 }
 
 .works-filters {
@@ -387,4 +383,9 @@ button {
   font-weight: 400;
   line-height: 1.714;
   color: var(--transparent-gray);
+}
+
+.link-hover:hover,
+.link-hover:focus {
+  color: var(--blue);
 }
