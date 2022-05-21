@@ -178,7 +178,6 @@ button {
 }
 
 .hero {
-  display: flex;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--dark-gray);
